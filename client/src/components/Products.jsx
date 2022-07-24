@@ -21,7 +21,7 @@ const Products=()=>{
                         <Item name="Phone" img={Phone} price="55,000" productDesc="Best ever mobile phone" />
                         <Item name="TShirt" img={TShirt} price="599" productDesc="Best ever t-shirt" />
                         <Item name="SmartWatch" img={SmartWatches} price="32,000" productDesc="Best ever smart watches" />
-                    </div>                
+                </div>                
         </div>
     )
 }
