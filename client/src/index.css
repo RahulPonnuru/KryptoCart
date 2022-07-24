@@ -31,6 +31,17 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.card {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #C8D0D8;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+
 li{
   list-style: none;
   padding: 20px;
@@ -156,15 +167,16 @@ li{
 
 .firstLine{
   display: flex;
-  flex-direction: wrap;
+  flex-direction:row;
   position: relative;
-  left: 100px;
+  left: 50px;
+  width: 500px;
 }
 
 .secondLine{
   display: flex;
   flex-direction: wrap;
-  margin-left: 100px;
+  margin-left: 50px;
   
 }
 
