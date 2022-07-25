@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Item=(props)=>{
     return(
         <div className="box">
@@ -9,7 +11,7 @@ const Item=(props)=>{
                 <h3 className="cardContent">{props.price}</h3>
                 <h4 className="cardContent">{props.productDesc}</h4>
             </div>
-            <button type="button" className="buyBtn btn-grad">Buy Now</button>
+            <Link to={`/${props.id}`}><button type="button" className="buyBtn btn-grad">Buy Now</button></Link>
         </div>
     )
 }

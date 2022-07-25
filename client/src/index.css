@@ -27,8 +27,16 @@
   display: flex;
   flex-direction: wrap;
   color: white;
-  padding-left: 50%;
+  padding-left: 46%;
   font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #C8D0D8;
+  margin: 50px auto;
 }
 
 li{
@@ -72,6 +80,7 @@ li{
   margin: 40px 130px;
   font-family: 'Raleway', sans-serif;
   border-color: white;
+  text-decoration: none;
 }
 
 .btn-grad:hover {
@@ -137,13 +146,12 @@ li{
   color: white;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  position:absolute;
-  left: 42%;
-  bottom: 10%;
+  position: absolute;
+  left: 45%;
 }
 
 .box{
-  margin: 30px 30px ;
+  margin: 20px 30px ;
   border: 2px solid white;
   padding: 20px;
   background-color: #061826;
@@ -155,18 +163,20 @@ li{
 
 
 .firstLine{
-  display: flex;
-  flex-direction: wrap;
+  /* display: flex;
   position: relative;
-  left: 100px;
+  top: 40px;
+  left: 50px;
+  width: 500px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
 }
 
-.secondLine{
-  display: flex;
-  flex-direction: wrap;
-  margin-left: 100px;
-  
-}
 
 .boxImg{
   width: 250px;
@@ -184,6 +194,7 @@ li{
 .buyBtn{
   margin: 0 80px;
   padding: 10px;
+  text-decoration: none;
 }
 
 .cardContent{
@@ -196,4 +207,52 @@ li{
   color: white;
   font-family: 'Raleway', sans-serif;
   background-color: #000000;
+}
+
+.success{
+  text-align: center;
+  padding: 40px 0;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2b3849, #080e18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.successTit{
+  color: #88B04B;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.successContent{
+  color: #404F5E;
+  font-family: 'Raleway', sans-serif;
+  font-size:20px;
+  margin: 0;
+}
+
+.successCard{
+  background: white;
+  padding: 60px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+i {
+  color: #9ABC66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left:-15px;
+}
+
+.circle{
+  border-radius:200px; 
+  height:200px;
+  width:200px;
+  background: #F8FAF5;
+  margin:0 auto;
+  border: 2px solid black;
 }
